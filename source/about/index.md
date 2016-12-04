@@ -26,7 +26,7 @@ QQ: 973349752
 
 ### Five UI － 自用React.js组件库，开发中：
 > 没事自己做的，为了方便自己以后的开发咯，顺便用于实践－－
-> 猛戳：http://five.dosk.win:/
+> 猛戳：http://five.dosk.win/
 
 
 ### 新番更新表：

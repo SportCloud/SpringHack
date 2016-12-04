@@ -5,7 +5,7 @@
 <p>首先，我说明下，我的博客在写这篇文章的时候，是测试不会403的。博客有两个网址，带www和不带www两种。由于我不带www的会自动跳转带www，所以我设置的是带www的能被抓取，不带的没管，测试指令如下：</p>
 
 <pre>
-<code class="language-bash">curl -A "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" http://www.dosk.win/
+<code class="language-bash">curl -A "Mozilla/5.0 (compatible; Baiduspider/2.0; +https://www.baidu.com/search/spider.html)" https://www.dosk.win/
 </code></pre>
 
 <p>很多方案，我就不一一说了，但是都不适合我，因为之前的文章中提到，博客的后台编辑器是强依赖Github API的，所以博客代码只能放在github上。但是国内的服务商Coding.Net提供几乎一样的服务（而且速度快咩哈哈），只不过这个编辑器不能被移植过去（她们提供的API同源策略的问题，可以在她们repo的谈论区看到我的issus）。</p>
